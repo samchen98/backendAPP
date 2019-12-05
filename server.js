@@ -22,5 +22,5 @@ const usersRouter = require('./routes/users');
 
 app.use('/users', usersRouter);
 
-app.listen(process.env.PORT || 5000)
+app.listen(process.env.PORT)
 
